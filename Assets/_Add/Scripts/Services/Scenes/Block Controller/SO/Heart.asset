@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 314e8a60609a1924193550deee33a0c6, type: 3}
+  m_Name: Heart
+  m_EditorClassIdentifier: 
+  DefaultBlockScale: {x: 0.8, y: 0.8}
+  MaxBlockScale: {x: 1, y: 1}
+  ScaleBlockStep: 0.1
+  MainSpriteBlock:
+  - {fileID: 21300000, guid: 549800e21bd0c89408a65db1cf2e9374, type: 3}
+  LeftBlock: []
+  RightBlock: []
+  Shadow:
+  - {fileID: 21300000, guid: 549800e21bd0c89408a65db1cf2e9374, type: 3}
+  Splat:
+  - {fileID: 21300000, guid: 223e95c9a12c658479b977cd887cbb48, type: 3}

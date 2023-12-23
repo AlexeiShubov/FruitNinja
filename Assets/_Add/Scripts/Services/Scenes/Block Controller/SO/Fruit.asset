@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 314e8a60609a1924193550deee33a0c6, type: 3}
+  m_Name: Fruit
+  m_EditorClassIdentifier: 
+  DefaultBlockScale: {x: 0.8, y: 0.8}
+  MaxBlockScale: {x: 1, y: 1}
+  ScaleBlockStep: 0.1
+  MainSpriteBlock:
+  - {fileID: -549789443665989942, guid: 5a03b114ce32087439e281dc9dc20f37, type: 3}
+  - {fileID: 5382512944479897801, guid: dd3ffcc8ae435154ca1139ea00e5a1fd, type: 3}
+  - {fileID: 2161284124966242572, guid: 6c0de9fc437234044b10226e2afb3f48, type: 3}
+  - {fileID: -2214249495721929474, guid: 3437dcea5135f7c4a9952672536b0f3c, type: 3}
+  - {fileID: -3609754129978504188, guid: f39beaf219961b847aeb12e8f8a32973, type: 3}
+  - {fileID: -9091539399625358973, guid: a5ecbf92a60f70a459d853b3091c5f29, type: 3}
+  - {fileID: 1526234616134381953, guid: 4b6e51963bfb0e14cb0b13dc3d92bf4d, type: 3}
+  - {fileID: -6521200998356810719, guid: 2361e2302586ea044a3b1ee49b14e95c, type: 3}
+  LeftBlock:
+  - {fileID: -855298285791758126, guid: 5a03b114ce32087439e281dc9dc20f37, type: 3}
+  - {fileID: 6937817954938267909, guid: dd3ffcc8ae435154ca1139ea00e5a1fd, type: 3}
+  - {fileID: -6470460504253458178, guid: 6c0de9fc437234044b10226e2afb3f48, type: 3}
+  - {fileID: -4178046375966092550, guid: 3437dcea5135f7c4a9952672536b0f3c, type: 3}
+  - {fileID: 4130640169021434097, guid: f39beaf219961b847aeb12e8f8a32973, type: 3}
+  - {fileID: 3465286685962602723, guid: a5ecbf92a60f70a459d853b3091c5f29, type: 3}
+  - {fileID: 7028616704906629411, guid: 4b6e51963bfb0e14cb0b13dc3d92bf4d, type: 3}
+  - {fileID: 8288426215254106694, guid: 2361e2302586ea044a3b1ee49b14e95c, type: 3}
+  RightBlock:
+  - {fileID: 9180251791023625898, guid: 5a03b114ce32087439e281dc9dc20f37, type: 3}
+  - {fileID: 3191122964850554743, guid: dd3ffcc8ae435154ca1139ea00e5a1fd, type: 3}
+  - {fileID: 6623151957235123224, guid: 6c0de9fc437234044b10226e2afb3f48, type: 3}
+  - {fileID: 8982099749623107299, guid: 3437dcea5135f7c4a9952672536b0f3c, type: 3}
+  - {fileID: -7200132072931614835, guid: f39beaf219961b847aeb12e8f8a32973, type: 3}
+  - {fileID: 6653994858678897968, guid: a5ecbf92a60f70a459d853b3091c5f29, type: 3}
+  - {fileID: -922402802239089382, guid: 4b6e51963bfb0e14cb0b13dc3d92bf4d, type: 3}
+  - {fileID: -2681809406195053031, guid: 2361e2302586ea044a3b1ee49b14e95c, type: 3}
+  Shadow:
+  - {fileID: -549789443665989942, guid: 5a03b114ce32087439e281dc9dc20f37, type: 3}
+  - {fileID: 5382512944479897801, guid: dd3ffcc8ae435154ca1139ea00e5a1fd, type: 3}
+  - {fileID: 2161284124966242572, guid: 6c0de9fc437234044b10226e2afb3f48, type: 3}
+  - {fileID: -2214249495721929474, guid: 3437dcea5135f7c4a9952672536b0f3c, type: 3}
+  - {fileID: -3609754129978504188, guid: f39beaf219961b847aeb12e8f8a32973, type: 3}
+  - {fileID: -9091539399625358973, guid: a5ecbf92a60f70a459d853b3091c5f29, type: 3}
+  - {fileID: 1526234616134381953, guid: 4b6e51963bfb0e14cb0b13dc3d92bf4d, type: 3}
+  - {fileID: -6521200998356810719, guid: 2361e2302586ea044a3b1ee49b14e95c, type: 3}
+  Splat:
+  - {fileID: 21300000, guid: 8f772e81a4c02f84ab616b4cd3e44bda, type: 3}
+  - {fileID: 21300000, guid: 8f772e81a4c02f84ab616b4cd3e44bda, type: 3}
+  - {fileID: 21300000, guid: 3a8eac7fe6f2def49b73c3b290523ab0, type: 3}
+  - {fileID: 21300000, guid: 44df4edc759ea04488d65d9889c343d7, type: 3}
+  - {fileID: 21300000, guid: 92959b75d1efc8544a3f9906bb8da5ba, type: 3}
+  - {fileID: 21300000, guid: 3a8eac7fe6f2def49b73c3b290523ab0, type: 3}
+  - {fileID: 21300000, guid: 3a8eac7fe6f2def49b73c3b290523ab0, type: 3}
+  - {fileID: 21300000, guid: 92959b75d1efc8544a3f9906bb8da5ba, type: 3}
